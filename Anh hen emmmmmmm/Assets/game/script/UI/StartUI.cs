@@ -9,6 +9,9 @@ public class StartUI : MonoBehaviour
     {
         UIManager.Instance.OpenUI<HomeCanvas>();
         Debug.Log("anh hen em");
+        Debug.Log("thang kun");
+
+
     }
 
     // Update is called once per frame
