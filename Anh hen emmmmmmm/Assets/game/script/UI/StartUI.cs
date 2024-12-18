@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 public class StartUI : MonoBehaviour
@@ -9,6 +10,7 @@ public class StartUI : MonoBehaviour
     {
         UIManager.Instance.OpenUI<HomeCanvas>();
         Debug.Log("anh hen em");
+        Debug.Log("ko hen gi hetS");
     }
 
     // Update is called once per frame
